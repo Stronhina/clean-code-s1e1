@@ -20,11 +20,11 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { text-align: center;
   }
-  
+
 }
 
 .wrapper {
@@ -44,12 +44,12 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 input{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -60,7 +60,7 @@ input{
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .button:hover {
@@ -115,7 +115,7 @@ input{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-  list-style:none;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,14 +151,14 @@ input{
 /* Edit Task */
 
 .tasks_item .input-text {
-  display:none
+  display: none
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task__label {
-  display:none;
+  display: none;
 }

@@ -47,7 +47,8 @@ ul {
   padding: 0px;
 }
 
-input {
+input,
+button {
   outline: none;
 }
 
@@ -59,7 +60,6 @@ input {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline: none;
 }
 
 .button:hover {
@@ -100,6 +100,7 @@ input {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -113,10 +114,15 @@ input {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-  list-style: none;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.tasks_item,
+.title {
+  list-style: none;
 }
 
 .input_checkbox {

@@ -96,8 +96,8 @@ button {
 }
 
 /* New Task */
-.new-task__label {
-  display: block;
+.title_new-task {
+  /* display: block; */
   margin: 0 0 20px;
 }
 
